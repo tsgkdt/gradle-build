@@ -1,4 +1,4 @@
-FROM openjdk:7-jdk-alpine
+FROM openjdk:8-jdk-alpine
 
 LABEL version="0.1"
 LABEL description="build for java project"
