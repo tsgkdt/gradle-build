@@ -8,6 +8,7 @@ ENV GRADLE_VERSION=3.4 \
 
 RUN set -ex \
       && apk --no-cache add --virtual build-dependencies wget \
+      && apk add --update --no-cache libstdc++ \
       && cd /tmp \
       && mkdir -p /opt/gradle \
       && wget --quiet https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip \
