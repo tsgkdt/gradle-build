@@ -3,7 +3,7 @@ FROM openjdk:8-jdk-alpine
 LABEL version="0.1"
 LABEL description="build for java project"
 
-ENV GRADLE_VERSION=3.4 \
+ENV GRADLE_VERSION=3.5 \
     MAVEN_HOME=/opt/maven 
 
 RUN set -ex \
