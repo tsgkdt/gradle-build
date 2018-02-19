@@ -12,16 +12,16 @@ console output
 
 ```
 ------------------------------------------------------------
-Gradle 4.0
+Gradle 4.5.1
 ------------------------------------------------------------
 
-Build time:   2017-06-14 15:11:08 UTC
-Revision:     316546a5fcb4e2dfe1d6aa0b73a4e09e8cecb5a5
+Build time:   2018-02-05 13:22:49 UTC
+Revision:     37007e1c012001ff09973e0bd095139239ecd3b3
 
-Groovy:       2.4.11
-Ant:          Apache Ant(TM) version 1.9.6 compiled on June 29 2015
-JVM:          1.8.0_131 (Oracle Corporation 25.131-b11)
-OS:           Linux 4.8.0-39-generic amd64
+Groovy:       2.4.12
+Ant:          Apache Ant(TM) version 1.9.9 compiled on February 2 2017
+JVM:          1.8.0_151 (Oracle Corporation 25.151-b12)
+OS:           Linux 4.4.0-1049-aws amd64
 ```
 
 ### mount host dir & gradle task
