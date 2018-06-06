@@ -11,17 +11,29 @@ docuker run --rm tsgkadot/gradle-build:latest gradle -v
 console output
 
 ```
+Welcome to Gradle 4.8!
+
+Here are the highlights of this release:
+ - Dependency locking
+ - Maven Publish and Ivy Publish plugins improved and marked stable
+ - Incremental annotation processing enhancements
+ - APIs to configure tasks at creation time
+
+For more details see https://docs.gradle.org/4.8/release-notes.html
+
+
 ------------------------------------------------------------
-Gradle 4.5.1
+Gradle 4.8
 ------------------------------------------------------------
 
-Build time:   2018-02-05 13:22:49 UTC
-Revision:     37007e1c012001ff09973e0bd095139239ecd3b3
+Build time:   2018-06-04 10:39:58 UTC
+Revision:     9e1261240e412cbf61a5e3a5ab734f232b2f887d
 
 Groovy:       2.4.12
-Ant:          Apache Ant(TM) version 1.9.9 compiled on February 2 2017
+Ant:          Apache Ant(TM) version 1.9.11 compiled on March 23 2018
 JVM:          1.8.0_151 (Oracle Corporation 25.151-b12)
-OS:           Linux 4.4.0-1049-aws amd64
+OS:           Linux 4.10.0-37-generic amd64
+
 ```
 
 ### mount host dir & gradle task
